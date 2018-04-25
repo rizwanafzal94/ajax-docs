@@ -79,8 +79,6 @@ Here is a list of the required steps to perform:
 
 ## Create a Custom Skin dll from an Existing Custom Skin with Skin's Assembly Builder
 
->note Note that the tool works only for Classic render mode skins and is currently not compatible with the skin files produced by the [Telerik ThemeBuilder for ASP.NET AJAX](http://themebuilder.telerik.com/) tool. If you want to create an assembly for the Lightweight render mode, download the source code from the [Download section of your account](https://www.telerik.com/account/product-download?product=RCAJAX), modify the Telerik.Web.UI.Skins project and build it to produce a skin assembly.
->
 
 Telerik provides an independent tool for assembling custom skin dll file based on an existing custom skin.
 
