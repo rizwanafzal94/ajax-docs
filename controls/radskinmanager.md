@@ -301,8 +301,6 @@ The steps that you need to take in order to load skins by specifying a path are:
 
 >note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
 
->note The button-type controls (RadButton, RadPushButton, RadImageButton, RadLinkButton, RadToggleButton, RadRadioButtonList, RadCheckBoxList) will register one stylesheet only, that is `CustomSkinName\Button.CustomSkinName.css`. Thus, you need to put all custom skins for all of them in that file.
-
 ### Loading skins from an external assembly
 
 If you create an assembly holding your skins and reference it correctly, the RadSkinManager will treat the custom skins the same way as the embedded Telerik control skins.
